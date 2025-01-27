@@ -320,7 +320,7 @@ body {
     animation: pulse-border 1.5s infinite;
 }
 
-/* ----- block 3 -----*/
+/* ----- block 3 (web) -----*/
 
 .block3-page{
     position: relative;
@@ -433,7 +433,7 @@ body {
     animation: pulse-border 1.5s infinite;
 }
 
-/* ------------- block 4 ------------- */
+/* ------------- block 4 (web) ------------- */
 
 .block4-page{
     position: relative;
@@ -459,96 +459,84 @@ body {
   /* ----- portrait tablet & horiz mob ----- */
 
   @media (min-width: 768px) and (max-width: 979px) {
+    /* --------- main  --------- */
     .main-page{
         position: relative; 
         width: 100%;
-        height: 550px;
+        height: 500px;
         display: inline-block;
     }
 
     .main-img{
         position: relative; 
         width: 100%; 
-        height: 490px;
+        height: 440px;
         filter: brightness(0.6);
     }
 
     .logo-main{
         position: absolute;
         top: 20px;
-        left: 24px;
+        left: 10%;
         width: 166px;
         height: 44px;
     }
 
-    .text-main{
+    .main-main{
         position: absolute;
-        top: 20%;
-        left: 20px;
-        width: 50%;
-        height: auto;
-    }
-
-    .claim-your-bonus-1{
-        position: absolute;
-        left: 60%;
-        top: 14px;
-        width: 38%;
-        height: 50px;
-        background-color: #FF5100;
-        border: 1px solid #FF5100;
-        border-radius: 42.73px;
-        font-family: 'Montserrat';
-        font-weight: 800;
-        font-size: 120%;
+        top: 120px;
+        left: 10%;
+        width: 65%;
+        font-family: 'Gilroy-Heavy';
+        font-weight: 700;
+        font-size: 50px;
         color: #FFFFFF;
-        cursor: pointer;
-        animation: pulse-border 1.5s infinite;
-    }
-
-    .claim-your-bonus-2{
-        position: absolute;
-        left: 5%;      
-        top: 62%;
-        width: 45%;
-        height: 10%;
-        background-color: #FF5100;
-        border: 1px solid #FF5100;
-        border-radius: 42.73px;
-        font-family: 'Montserrat';
-        font-weight: 800;
-        font-size: 18px;
-        color: #FFFFFF;
-        cursor: pointer;
-        animation: pulse-border 1.5s infinite;
+        line-height: 52px;
+        letter-spacing: 1px;
     }
     
-    .claim-your-bonus-3{
+    .main-second{
         position: absolute;
-        left: 5%;       
-        top: 75%;
+        top: 255px;
+        left: 10%;
         width: 45%;
-        height: 10%;
-        background-color: #FFAE00;
-        border: 1px solid #FFAE00;
-        border-radius: 42.73px;
-        font-family: 'Montserrat';
-        font-weight: 800;
-        font-size: 18px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 24px;
         color: #FFFFFF;
-        cursor: pointer;
-        animation: pulse-border-2 1.5s infinite;
+        line-height: 1.0;
+        letter-spacing: 1px;
     }
 
-    .check-box{
+    .play-btn{
         position: absolute;
-        top: 104px;
-        left: 74%;
-        width: 22%;
-        height: 43px;
-        background-color: #0A0A0B;
+        left: 10%;      
+        top: 70%;
+        width: 400px;
+        height: 60px;
+        background-image: linear-gradient(to bottom, #44E543, #00DBDD);
+        border: 1px solid #44E543;
+        border-radius: 10px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 20px;
+        color: black;
+        cursor: pointer;
+        animation: pulse-border 1.5s infinite;
+    }
+
+    /* ------------ block 2 (tablet) ------------ */
+
+    .check-box-label{
+        position: absolute;
+        top: 110px;
+        left: 70%;
+        width: 24%;
+        height: 38px;
+        background-color: #000920;
         border: 1px solid #FFFFFF;
         border-radius: 8px;
+        cursor: pointer;
     }
 
     .btn-frame p{
@@ -558,8 +546,8 @@ body {
         width: 80%;
         font-family: 'Montserrat';
         font-weight: 700;
-        font-size: 180%;
-        line-height: 36px;
+        font-size: 140%;
+        line-height: 30px;
         color: #FFFFFF;
     }
 
@@ -569,38 +557,129 @@ body {
         top: 450px;
         width: 40%;
         height: 60px;
-        background-color: #FF5100;
-        border: 1px solid #FF5100;
-        border-radius: 42.73px;
+        background-image: linear-gradient(to bottom, #44E543, #00DBDD);
+        border: 1px solid #44E543;
+        border-radius: 10px;
         font-family: 'Montserrat';
         font-weight: 800;
-        font-size: 120%;
-        color: #FFFFFF;
+        font-size: 20px;
+        color: black;
         cursor: pointer;
         animation: pulse-border 1.5s infinite;
     }
 
-    .exlusive-bonus-field{
-        position: absolute;
-        top: 74%;
-        left: 50%;
-        width: 50%;
-        height: 26%;
-        border: 5px solid transparent;
-        border-top-left-radius: 100px;
-        border-bottom-left-radius: 100px;
-        background:
-            linear-gradient( #0D0D0DE5, #0D0D0DE5) padding-box,
-            linear-gradient(45deg, #421B6A, #9D385A) border-box;
-    }
-    
-    .text-box{
-        position: absolute;
-        top: 18%;
-        left: 9%;
-        width: 85%;
-    }
-  }
+/* ----- block 3 (tablet) -----*/
+
+.block3-page{
+    position: relative;
+    width: 100%; 
+    height: 820px;
+    background-color: #000920;
+    /* background-color: blue; */
+}
+
+.cards-img{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    width: 62%;
+    height: 340px;
+}
+
+.cards-block-main{
+    position: absolute;
+    top: 429px;
+    left: 15%;
+    width: 24%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 52px;
+    letter-spacing: 1px;
+}
+
+.cards-block-second{
+    position: absolute;
+    top: 560px;
+    left: 15%;
+    width: 24%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+.join-btn{
+    position: absolute;
+    left: 15%;
+    top: 665px;
+    width: 24%;
+    height: 60px;
+    background-image: linear-gradient(to bottom, #44E543, #00DBDD);
+    border: 1px solid #44E543;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 120%;
+    color: black;
+    cursor: pointer;
+    animation: pulse-border 1.5s infinite;
+}
+
+.car-img{
+    position: absolute;
+    left: 48%;
+    top: 360px;
+    width: 42%;
+    height: 420px;
+}
+
+
+.car-block-main{
+    position: absolute;
+    top: 70px;
+    left: 72%;
+    width: 24%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 52px;
+    letter-spacing: 1px;
+}
+
+.car-block-second{
+    position: absolute;
+    top: 190px;
+    left: 72%;
+    width: 24%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+.get-car-bonus{
+    position: absolute;
+    top: 270px;
+    left: 72%;
+    width: 24%;
+    height: 60px;
+    background-image: linear-gradient(to bottom, #44E543, #00DBDD);
+    border: 1px solid #44E543;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 120%;
+    color: black;
+    cursor: pointer;
+    animation: pulse-border 1.5s infinite;
+}
 
 
 /* ----- mob ----- */
