@@ -458,7 +458,7 @@ body {
 
   /* ----- portrait tablet & horiz mob ----- */
 
-  @media (min-width: 768px) and (max-width: 979px) {
+  @media (min-width: 650px) and (max-width: 979px) {
     /* --------- main  --------- */
     .main-page{
         position: relative; 
@@ -546,8 +546,8 @@ body {
         width: 80%;
         font-family: 'Montserrat';
         font-weight: 700;
-        font-size: 140%;
-        line-height: 30px;
+        font-size: 130%;
+        line-height: 27px;
         color: #FFFFFF;
     }
 
@@ -603,7 +603,7 @@ body {
     position: absolute;
     top: 560px;
     left: 15%;
-    width: 24%;
+    width: 29%;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
@@ -641,7 +641,7 @@ body {
 .car-block-main{
     position: absolute;
     top: 70px;
-    left: 72%;
+    left: 67%;
     width: 24%;
     font-family: 'Gilroy-Heavy';
     font-weight: 700;
@@ -654,8 +654,8 @@ body {
 .car-block-second{
     position: absolute;
     top: 190px;
-    left: 72%;
-    width: 24%;
+    left: 67%;
+    width: 27%;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
@@ -667,7 +667,7 @@ body {
 .get-car-bonus{
     position: absolute;
     top: 270px;
-    left: 72%;
+    left: 67%;
     width: 24%;
     height: 60px;
     background-image: linear-gradient(to bottom, #44E543, #00DBDD);
