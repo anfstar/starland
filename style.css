@@ -680,6 +680,7 @@ body {
     cursor: pointer;
     animation: pulse-border 1.5s infinite;
 }
+  }
 
 
 /* ----- mob ----- */
@@ -725,7 +726,7 @@ body {
         position: absolute;
         top: 220px;
         left: 10%;
-        width: 35%;
+        width: 45%;
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
@@ -1074,5 +1075,3 @@ body {
 }
 
 }
-
- 
